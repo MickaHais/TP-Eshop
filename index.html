@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eshop Sneakers</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="close-button" class="close-button">x</span>
+                <p>Entrez votre adresse e-mail :</p>
+                <input type="email" placeholder="Votre adresse e-mail">
+                <a href="#" class="inscription">S'inscrire</a>
+            </div>
+        </div>
+
+        <header>
+            <h1>sneakers</h1>
+            <nav>
+                <a href="#">Collections</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            <i class="fas fa-cart-shopping" id="cartshop"></i>
+            <img src="./Image/pngtree-cute-bearded-boy-image_1455203.jpg" alt="image compte utilisateur">
+        </header>
+
+        <main>
+            <article id="photos">
+                <img src="./Image/image-sneakers1.png" alt="image sneakers" id="photo-principal">
+                <div>
+                    <img src="./Image/image-sneakers1.png" alt="image sneakers" id="photo1">
+                    <img src="./Image/image-sneakers2.png" alt="image sneakers" id="photo2">
+                    <img src="./Image/image-sneakers3.png" alt="image sneakers" id="photo3">
+                    <img src="./Image/image-sneakers4.png" alt="image sneakers" id="photo4">
+                </div>
+            </article>
+
+            <article id="details">
+                <h3>SNEAKER COMPANY</h3>
+                <h1>Fall Limited Edition Sneakers</h1>
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                <section id="prix">
+                    <h2>$125.00</h2>
+                    <h3 id="remise">50%</h3>
+                </section>
+                <h4>$250.00</h4>
+                <section id="quantite">
+                    <aside>
+                        <button>-</button>
+                        <p id="decompte-panier">0</p>
+                        <button>+</button>
+                    </aside>
+                    <div>
+                        <i class="fas fa-cart-shopping" id="cartpanier"></i>
+                        <p>Add to cart</p>
+                    </div>
+                </section>
+            </article>
+
+        </main>
+
+        <footer>
+            <p>Copyrights - © <span id="annee"></span> - Tous droits réservés</p>
+        </footer>
+    </body>
+    <script src="./javascript/script.js"></script>
+</html>
